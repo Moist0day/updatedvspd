@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOKGOBU DIGITAL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="logo mkg.png" type="image/x-icon">
+</head>
+<body class="animation-area">
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <div class="navbar">
+            <!-- Logo with clickable refresh functionality -->
+            <img src="mokgobu.png" class="logo" alt="Mokgobu Digital Logo" onclick="refreshPage()">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="who.html">WHO WE ARE</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <h1 class="falling-heading">
+                <span class="falling-word">MOKGOBU'S</span>
+                <span class="falling-word">TEAM</span>
+            </h1>
+            <hr>
+
+            <!-- Phasoane Mokgobu Profile -->
+            <div class="row">
+                <div class="col-d-3 profile text-center">
+                    <div class="img-box">
+                        <img src="IMG_8890.PNG" class="img-responsive" alt="Phasoane Mokgobu">
+                    </div>
+                    <h2>Tshepiso Mokgobu</h2>
+                    <h3>Brand Strategist / Founder</h3>
+                    <p>"With years of coding experience and a strong grasp of digital marketing, I create solutions that drive both technical performance and business growth."</p>
+                </div>
+            </div>
+
+            <!-- Phaswane Mokgobu Profile -->
+            <div class="row">
+                <div class="col-d-3 profile text-center">
+                    <div class="img-box">
+                        <img src="IMG_8860.PNG" class="img-responsive" alt="Phaswane Mokgobu">
+                    </div>
+                    <h2>Letago Mokgobu</h2>
+                    <h3>Operations Manager</h3>
+                    <p>"Experienced in coding and digital marketing, I build high-impact solutions that blend technical excellence with strategic growth."</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        // JavaScript to refresh the page when the logo is clicked
+        function refreshPage() {
+            location.reload(); // This reloads the current page
+        }
+        window.onload = function() {
+            window.scrollTo(0, 0); // Scrolls to the top-left corner of the page
+        };
+    </script>
+
+
+</body>
+
+<footer>
+    <div class="footer-container">
+        <div class="newsletter">
+            <h3>Newsletter</h3>
+            <input type="email" placeholder="Your email address">
+            <button>Subscribe</button>
+        </div>
+        <div class="services">
+            <h3>Services</h3>
+            <ul>
+                <li>Digital Marketing</li>
+                <li>Creative Ideas</li>
+                <li>Branding</li>
+                <li>Video Contents</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h3>Say Hi</h3>
+            <p>mokgobudigital@gmail.com</p>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+        </div>
+    </div>
+    <p class="copyright">Copyright &copy; Mokgobu Digital Co., Ltd. </p>
+</footer>
+</html>
